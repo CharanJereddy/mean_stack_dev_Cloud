@@ -1,0 +1,33 @@
+.form-container {
+    display: grid;
+    max-width: 400px;
+    gap: 20px;
+    padding: 20px;
+    margin: auto; 
+    background: #f8f8f8;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+}
+
+.form-container input,
+.form-container select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%; 
+}
+
+.form-container label {
+    font-weight: bold; 
+}
+
+.form-container input[type="submit"] {
+    background-color: #4CAF50; 
+    color: white;
+    cursor: pointer; 
+    transition: background 0.3s; 
+}
+
+.form-container input[type="submit"]:hover {
+    background-color: #45a049;
+}
